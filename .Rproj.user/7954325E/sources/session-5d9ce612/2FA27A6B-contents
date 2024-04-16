@@ -1,6 +1,7 @@
-Package: helper_Functions
+Package: helperFunctions
+Version: 0.0.1.0
 Encoding: UTF-8
 Type: Package
 Title: Vincent Good helper functions package
-Version: 0.0.1.0
 RoxygenNote: 7.3.1
+Depends: rjson, odbc, dplyr
