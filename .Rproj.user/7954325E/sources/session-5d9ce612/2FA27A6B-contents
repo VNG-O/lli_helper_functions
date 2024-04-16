@@ -1,4 +1,5 @@
-Package: helper_functions
+Package: helper_Functions
+Encoding: UTF-8
 Type: Package
 Title: Vincent Good helper functions package
 Version: 0.0.1.0
