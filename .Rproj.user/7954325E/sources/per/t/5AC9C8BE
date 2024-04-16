@@ -1,0 +1,26 @@
+{
+    "id": "5AC9C8BE",
+    "path": "~/LLI_Data_Analysis/packages/helper_functions/R/row_count.R",
+    "project_path": "R/row_count.R",
+    "type": "r_source",
+    "hash": "2214623235",
+    "contents": "",
+    "dirty": false,
+    "created": 1713266739240.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "2,1",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1713266772,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1713266772383,
+    "read_only": false,
+    "read_only_alternatives": []
+}

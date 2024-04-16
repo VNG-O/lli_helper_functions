@@ -1,0 +1,5 @@
+Package: helper_functions
+Type: Package
+Title: Vincent Good helper functions package
+Version: 0.0.1.0
+RoxygenNote: 7.3.1
