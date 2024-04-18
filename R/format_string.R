@@ -1,3 +1,6 @@
+#' Formatting a string with built in arguments
+#' 
+#' @export
 format_string <- function(string, upper = TRUE, strip_punc = TRUE, strip_ws = TRUE, strip_comma = TRUE) {
   
   if (upper) {
