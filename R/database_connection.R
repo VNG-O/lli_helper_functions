@@ -18,7 +18,7 @@
 #' @return A database connection object.
 #' @export
 db_connection <- function(config_file = "./config/db_config.json", config_db) {
-  config_data <- fromJSON(file = config_file)
+  config_data <- rjson::fromJSON(file = config_file)
   
   conn_string <- paste0("
     Driver={sqora32.dll};
