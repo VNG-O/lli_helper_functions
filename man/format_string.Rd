@@ -2,16 +2,22 @@
 % Please edit documentation in R/format_string.R
 \name{format_string}
 \alias{format_string}
-\title{Formatting a string with built in arguments}
+\title{Formatting a string}
 \usage{
-format_string(
-  string,
-  upper = TRUE,
-  strip_punc = TRUE,
-  strip_ws = TRUE,
-  strip_comma = TRUE
-)
+format_string(string, upper = TRUE, only_alpha_numeric = TRUE, strip_ws = TRUE)
+}
+\arguments{
+\item{string}{The input string to be formatted.}
+
+\item{upper}{A boolean which indicates if you want the output to be upper-case.}
+
+\item{only_alpha_numeric}{A boolean which indicates if you want the output to only contain alpha-numeric characters.}
+
+\item{strip_ws}{A boolean which indicates if you want to strip white space from the output.}
+}
+\value{
+String
 }
 \description{
-Formatting a string with built in arguments
+Formatting a string with built in format parameters to streamline having to perform multiple operations.
 }

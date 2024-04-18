@@ -7,6 +7,8 @@
 db_connection(config_file = "./config/db_config.json", config_db)
 }
 \arguments{
+\item{config_file}{The path to a json config file. If none is given the default is "./config/db_config.json" in the current working directory. An example of the json file structure can be seen below.}
+
 \item{config_db}{The name of the database you would like to connect to in the config file.}
 }
 \value{
@@ -14,7 +16,6 @@ A database connection object.
 }
 \description{
 Establishing a connection to a database.
-#' @param config_file The path to a json config file. If none is given the default is "./config/db_config.json" in the current working directory. An example of the json file structure can be seen below.
 }
 \examples{
 db_config = {

@@ -2,10 +2,16 @@
 % Please edit documentation in R/row_count.R
 \name{row_count}
 \alias{row_count}
-\title{Counts the number of rows in a remote table}
+\title{Counts the number of rows in a data object}
 \usage{
 row_count(.data)
 }
+\arguments{
+\item{.data}{The data source.}
+}
+\value{
+Number
+}
 \description{
-Counts the number of rows in a remote table
+This function can be used with a remote data source.
 }
