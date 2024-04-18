@@ -1,4 +1,3 @@
 row_count <- function(.data) {
-  library(dplyr)
   .data %>% tally %>% pull
 }
