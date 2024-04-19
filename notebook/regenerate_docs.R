@@ -4,11 +4,11 @@ library(pkgload)
 roxygenise()
 load_all(".")
 
-helper_functions::db_connection(config_file = "../../config/db_config.json",
-                                  config_db = "sid_1")
+db_connection(config_file = "../../config/db_config.json",
+              config_db = "sid_1")
 
-helper_functions::db_connection(config_file = "../../config/db_config.json",
-                                config_db = "sid_dev")
+db_connection(config_file = "../../config/db_config.json",
+              config_db = "sid_uat")
 
 library(dplyr)
 library(dbplyr)

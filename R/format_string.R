@@ -18,7 +18,7 @@ format_string <- function(string,
   }
   
   if (only_alpha_numeric) {
-    string <- str_replace_all(string, "[^0-9A-Za-z]", "")
+    string <- stringr::str_replace_all(string, "[^0-9A-Za-z]", "")
   }
   
   if (strip_ws) {

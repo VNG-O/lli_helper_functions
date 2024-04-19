@@ -6,5 +6,5 @@
 #' @return Number
 #' @export
 row_count <- function(.data) {
-  .data %>% tally %>% pull
+  .data %>% dplyr::tally %>% dplyr::pull
 }
